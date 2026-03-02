@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "Aegis Score",
+  "version": "0.4.6",
+  "description": "Extract any webpage in Aegis instantly. Get V/C/L scores, zero-slop briefing, and Nostr-trusted analysis with one click.",
+  "icons": {
+    "16": "icon-16.png",
+    "48": "icon-48.png",
+    "128": "icon-128.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Aegis Score"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "activeTab",
+    "storage",
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://aegis.dwebxr.xyz/*"
+  ]
+}

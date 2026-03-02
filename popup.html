@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            width: 380px;
+            font-family: system-ui;
+            padding: 0;
+            margin: 0;
+            background: #0a0a0a;
+            color: #fff;
+        }
+
+        .header {
+            background: linear-gradient(90deg, #1e3a8a, #3b82f6);
+            padding: 16px;
+            text-align: center;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .content {
+            padding: 20px;
+        }
+
+        #startBtn {
+            width: 100%;
+            padding: 24px;
+            font-size: 20px;
+            font-weight: bold;
+            background: #3b82f6;
+            color: white;
+            border: none;
+            border-radius: 12px;
+            cursor: pointer;
+            margin: 20px 0;
+        }
+
+        #startBtn:hover {
+            background: #2563eb;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 40px;
+            font-size: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">🛡️ Aegis Score</div>
+    <div id="content" class="content"></div>
+    <script src="popup.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,16 @@
+{
+  "name": "aegis-extension",
+  "version": "0.5.0",
+  "main": "popup.js",
+  "scripts": {
+    "test": "jest --verbose"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "jest": "29.7.0",
+    "jest-environment-jsdom": "29.7.0"
+  }
+}

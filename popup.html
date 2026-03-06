@@ -25,27 +25,74 @@
             padding: 20px;
         }
 
-        #startBtn {
-            width: 100%;
-            padding: 24px;
-            font-size: 20px;
-            font-weight: bold;
-            background: #3b82f6;
-            color: white;
-            border: none;
-            border-radius: 12px;
-            cursor: pointer;
-            margin: 20px 0;
-        }
-
-        #startBtn:hover {
-            background: #2563eb;
-        }
-
         .loading {
             text-align: center;
             padding: 40px;
             font-size: 15px;
+        }
+
+        .error {
+            color: #ef4444;
+            padding: 20px;
+            background: #1f2937;
+            border-radius: 12px;
+        }
+
+        .scores {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px 0;
+        }
+
+        .score {
+            text-align: center;
+        }
+
+        .score-value {
+            font-size: 36px;
+        }
+
+        .score-value.value { color: #22c55e; }
+        .score-value.context { color: #3b82f6; }
+        .score-value.slop { color: #ef4444; }
+
+        .summary {
+            background: #1f2937;
+            padding: 16px;
+            border-radius: 12px;
+            font-size: 15px;
+            line-height: 1.5;
+        }
+
+        .btn-extract {
+            width: 100%;
+            padding: 18px;
+            margin: 20px 0;
+            background: #22c55e;
+            color: white;
+            border: none;
+            border-radius: 12px;
+            cursor: pointer;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .btn-extract:hover {
+            background: #16a34a;
+        }
+
+        .btn-retry {
+            width: 100%;
+            padding: 12px;
+            background: #3b82f6;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        .btn-retry:hover {
+            background: #2563eb;
         }
     </style>
 </head>

@@ -1,1 +1,0 @@
-console.log("🛡️ Aegis Score v0.3.0 起動完了（シンプル版）");

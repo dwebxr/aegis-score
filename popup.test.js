@@ -278,7 +278,7 @@ describe("renderResult", () => {
 
     expect(mockClipboardWrite).toHaveBeenCalledWith("https://test.com/page");
     expect(mockWindowOpen).toHaveBeenCalledWith(
-      `https://aegis.dwebxr.xyz/?tab=sources&url=${encodeURIComponent("https://test.com/page")}`,
+      `https://aegis-ai.xyz/?tab=sources&url=${encodeURIComponent("https://test.com/page")}`,
       "_blank"
     );
   });
@@ -343,7 +343,7 @@ describe("integration: full scoring flow", () => {
     document.getElementById("importBtn").click();
     expect(mockClipboardWrite).toHaveBeenCalledWith(pageUrl);
     expect(mockWindowOpen).toHaveBeenCalledWith(
-      `https://aegis.dwebxr.xyz/?tab=sources&url=${encodeURIComponent(pageUrl)}`,
+      `https://aegis-ai.xyz/?tab=sources&url=${encodeURIComponent(pageUrl)}`,
       "_blank"
     );
   });

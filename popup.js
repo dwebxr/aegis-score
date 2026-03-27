@@ -1,4 +1,4 @@
-const AEGIS_URL = "https://aegis.dwebxr.xyz/";
+const AEGIS_URL = "https://aegis-ai.xyz/";
 const MIN_TEXT_LENGTH = 100;
 const MAX_TEXT_LENGTH = 10000;
 

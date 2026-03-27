@@ -1,6 +1,6 @@
 # Aegis Score
 
-Chrome extension that scores any webpage and extracts it into [Aegis](https://aegis.dwebxr.xyz) with one click.
+Chrome extension that scores any webpage and extracts it into [Aegis](https://aegis-ai.xyz) with one click.
 
 ## What it does
 

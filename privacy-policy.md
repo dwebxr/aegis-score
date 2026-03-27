@@ -6,7 +6,7 @@ Aegis Score is a free, open-source Chrome extension that helps users instantly e
 
 ### 1. Information We Collect
 The extension performs **only one action**:
-- When you click "Extract this page in Aegis", it opens https://aegis.dwebxr.xyz with **only the current webpage URL** as a query parameter.
+- When you click "Extract this page in Aegis", it opens https://aegis-ai.xyz with **only the current webpage URL** as a query parameter.
 
 No personal information, browsing history, cookies, IP address, or any other data is collected or stored by the extension itself.
 
@@ -14,7 +14,7 @@ No personal information, browsing history, cookies, IP address, or any other dat
 The URL is sent solely to open the Aegis website and trigger the analysis in the Sources tab. The data is not stored, shared with third parties, or used for any other purpose.
 
 ### 3. Data Storage
-The extension does not use any persistent storage. The V/C/L scores shown in the popup are computed locally and exist only while the popup is open. All real analysis happens on the Aegis website (https://aegis.dwebxr.xyz).
+The extension does not use any persistent storage. The V/C/L scores shown in the popup are computed locally and exist only while the popup is open. All real analysis happens on the Aegis website (https://aegis-ai.xyz).
 
 ### 4. Your Rights
 You can uninstall the extension at any time. We do not collect any personally identifiable information.
